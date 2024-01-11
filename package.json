@@ -2,7 +2,7 @@
   "name": "with-vue-nuxt",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --parallel",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
